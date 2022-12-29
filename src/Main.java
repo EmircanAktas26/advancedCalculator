@@ -71,6 +71,10 @@ public class Main {
                 result += number;
                 continue;
             }
+            if (number == 0){
+                System.out.println("Error! Wrong value.");
+                return;
+            }
             result /= number;
         }
         System.out.println("Answer :" + result);
